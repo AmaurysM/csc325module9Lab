@@ -1,4 +1,4 @@
-package com.example.csc325module9lab;
+package amaurys.csc325module9lab;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
