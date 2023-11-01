@@ -25,7 +25,7 @@ public class App extends Application {
         fstore = contxtFirebase.firebase();
         fauth = FirebaseAuth.getInstance();
 
-        scene = new Scene(loadFXML("primary"), 640, 480);
+        scene = new Scene(loadFXML("hello-view"), 640, 480);
         stage.setScene(scene);
         stage.show();
     }

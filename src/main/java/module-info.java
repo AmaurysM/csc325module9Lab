@@ -8,6 +8,7 @@ module com.example.csc325module9lab {
     requires google.cloud.firestore;
     requires com.google.api.apicommon;
     requires google.cloud.core;
+    requires com.fasterxml.jackson.core;
 
     opens amaurys.csc325module9lab to javafx.fxml;
     exports amaurys.csc325module9lab;
